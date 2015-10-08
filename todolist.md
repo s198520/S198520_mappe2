@@ -1,6 +1,6 @@
-# paste here
+<p># paste here</p>
 
 <p>Lag Sql lite database</p>
-Koble til database
-Lage felter for søke/redigere/se
-Lage sms greia
+<p>Koble til database</p>
+<p>Lage felter for søke/redigere/se</p>
+<p>Lage sms greia</p>
