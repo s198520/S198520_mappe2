@@ -15,7 +15,6 @@
         android:layout_height="wrap_content"
         android:background="@drawable/button2"
         android:text="@string/btn_new"/>
-
     <Button
         android:id="@+id/btn_change"
         android:layout_height="wrap_content"
