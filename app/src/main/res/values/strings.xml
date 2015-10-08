@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> <string name="app_name">S198520_mappe</string>
+    <string name="btn_new">Ny Kontakt</string>
+    <string name="btn_change">Endre Kontakt</string>
+    <string name="delete">Slett Kontakt</string>
+    <string name="se">Se Kontakt</string>
+
+</resources>
