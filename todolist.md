@@ -1,4 +1,5 @@
 <p>Send mail til Torunn ASAP</p>
+<hr>
 
 <p>Lag Sql lite database</p>
 <p>Koble til database</p>
