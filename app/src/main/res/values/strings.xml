@@ -7,7 +7,9 @@
     <string name="se">Se Kontakt</string>
     <string name="btn_submit">"Lagre"</string>
     <string name="navn">"Navn"</string>
-    <string name="navn">"Navn"</string>
+    <string name="tlf">"Telefon"</string>
+    <string name="fødselsdag">"Fødselsdag"</string>
+
 
 
 </resources>
