@@ -6,7 +6,11 @@
     <string name="delete">Slett Kontakt</string>
     <string name="se">Se Kontakt</string>
     <string name="btn_submit">"Lagre"</string>
-    <string name="name">"Navn"</string>
+    <string name="navn">"Navn"</string>
     <string name="tlf">"Telefon"</string>
-    <string name="birthdate">"Fødselsdag"</string>
+    <string name="fødselsdag">"Fødselsdag"</string>
+    <string name="textedit">Skriv inn navn</string>
+    <string name="btn_editnametext">Endre</string>
+
+
 </resources>
