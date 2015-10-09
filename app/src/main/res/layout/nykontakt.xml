@@ -7,13 +7,13 @@
     android:background="@drawable/sky">
 
 
-        <TextView
+    <TextView
             android:id="@+id/newcontact"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/name" />
-        <EditText
+    <EditText
             android:id="@+id/newcontactfield"
             android:layout_width="fill_parent"
             android:layout_height="50dp"
@@ -34,7 +34,9 @@
         android:layout_height="50dp"
         android:layout_below="@id/newtlf"
         android:background="@color/white"
-        android:layout_marginBottom="25dp"/>
+        android:layout_marginBottom="25dp"
+        android:ems="10"
+        android:inputType="phone"/>
     <TextView
         android:id="@+id/newbirth"
         android:layout_width="wrap_content"
@@ -48,8 +50,9 @@
         android:layout_height="50dp"
         android:layout_below="@id/newbirth"
         android:background="@color/white"
-        android:layout_marginBottom="125dp"/>
-
+        android:layout_marginBottom="125dp"
+        android:ems="10"
+        android:inputType="date"/>
     <Button
         android:id="@+id/bt_submit"
         android:layout_width="fill_parent"
@@ -57,6 +60,5 @@
         android:layout_below="@id/newbirthfield"
         android:layout_alignParentBottom="true"
         android:background="@color/grey"
-        android:text="@string/btn_submit"
-        />
+        android:text="@string/btn_submit" />
 </RelativeLayout>
