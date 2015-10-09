@@ -1,4 +1,4 @@
-package com.example.henning.s198520_mappe2;
+package com.example.bilal.s198520_mappe2;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
