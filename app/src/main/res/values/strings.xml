@@ -4,13 +4,14 @@
     <string name="btn_new">Ny Kontakt</string>
     <string name="btn_change">Endre Kontakt</string>
     <string name="delete">Slett Kontakt</string>
-    <string name="se">Se Kontakt</string>
+    <string name="show">Se Kontakt</string>
     <string name="btn_submit">"Lagre"</string>
-    <string name="navn">"Navn"</string>
+    <string name="name">"Navn"</string>
     <string name="tlf">"Telefon"</string>
-    <string name="fodselsdag">"Fodselsdag"</string>
+    <string name="birhtday">"Fodselsdag"</string>
     <string name="textedit">Skriv inn navn</string>
     <string name="btn_editnametext">Endre</string>
+    <string name="btn_deletenametext">"Slett"</string>
 
 
 </resources>
