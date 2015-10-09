@@ -9,3 +9,4 @@
 <p>Lage icon</p>
 <p>Forskjellige språk</p>
 <p>Bruk actionbar til endring av språk og en "om oss"</p>
+<p>Kosmetiske ting(Font, farger, spacing, skriftstørrelse, animasjoner, lyder)</p>
