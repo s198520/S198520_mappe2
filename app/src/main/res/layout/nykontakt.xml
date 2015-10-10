@@ -60,5 +60,6 @@
         android:layout_below="@id/newbirthfield"
         android:layout_alignParentBottom="true"
         android:background="@color/grey"
-        android:text="@string/btn_submit" />
+        android:text="@string/btn_submit"
+        />
 </RelativeLayout>
