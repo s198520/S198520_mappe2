@@ -43,4 +43,8 @@ public class MainActivity extends ActionBarActivity {
         buckysInput.setText("");
     }
 
+    public void anime(View view){
+        view.setBackgroundResource(nyttBildeFixerSenere);
+    }
+
 }

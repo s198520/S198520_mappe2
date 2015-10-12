@@ -4,7 +4,7 @@
     <string name="btn_new">Ny Kontakt</string>
     <string name="btn_change">Endre Kontakt</string>
     <string name="delete">Slett Kontakt</string>
-    <string name="show">Se Kontakt</string>
+    <string name="show">Se Kontakter</string>
     <string name="btn_submit">"Lagre"</string>
     <string name="name">"Navn"</string>
     <string name="tlf">"Telefon"</string>
