@@ -16,6 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
+        <activity android:name=".nykontakt"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".redigerkontakt"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".slettkontakt"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".kontaktliste"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity">
+        </activity>
+</application>
 
 </manifest>

@@ -4,79 +4,73 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.view.View.OnClickListener;
 
 public class MainActivity extends Activity {
-
-    //button listeners
-    Button btn_new = (Button)findViewById(R.id.btn_new);
-    btn_new.setOnClickListener(this);
-
-    Button btn_change = (Button)findViewById(R.id.btn_change);
-    btn_change.setOnClickListener(this);
-
-    Button btn_change = (Button)findViewById(R.id.btn_change);
-    btn_change.setOnClickListener(this);
-
-    Button btn_show = (Button)findViewById(R.id.btn_show);
-    btn_show.setOnClickListener(this);
-
-}
-
-    @Override
-    public void onClick(View view) {
-        //handle clickson
-        if (view.getId() == R.id.btn_new) {
-            Intent playIntent = new Intent(this, thegame.class);
-            this.startActivity(playIntent);
-        } else if(view.getId() == R.id.helpBtn){
-            Intent playIntent = new Intent(this, help.class);
-            this.startActivity(playIntent);
-        } else if(view.getId() == R.id.languageBtn){
-            Intent playIntent = new Intent(this, Language.class);
-            this.startActivity(playIntent);
-        } else if(view.getId() == R.id.quitBtn){
-            System.exit(0);
-        }
-    }
-
-public class MainActivity extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    @Override protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        final Button btn_new = (Button)findViewById(R.id.btn_new);
+        final Button btn_change = (Button)findViewById(R.id.btn_change);
+        final Button btn_delete = (Button)findViewById(R.id.btn_delete);
+        final Button btn_show = (Button)findViewById(R.id.btn_show);
 
+
+
+        View.OnClickListener ocl = new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                    switch(v.getId()){
+                        case R.id.btn_new:
+                            en();
+                            break;
+                        case R.id.btn_change:
+                            to();
+                            break;
+                        case R.id.btn_delete:
+                            tre();
+                            break;
+                        case R.id.btn_show:
+                            fire();
+                            break;
+                        default:
+                            break;
+                    }
+                }
+            };
+
+        btn_new.setOnClickListener(ocl);
+        btn_change.setOnClickListener(ocl);
+        btn_delete.setOnClickListener(ocl);
+        btn_show.setOnClickListener(ocl);
     }
+        private void en() {
+            Intent intent = new Intent(getBaseContext(), nykontakt.class);
+            startActivityForResult(intent,0);
+        }
+        private void to() {
+            Intent intent = new Intent(getBaseContext(), redigerkontakt.class);
+            startActivityForResult(intent,0);
+        }
+        private void tre() {
+            Intent intent = new Intent(getBaseContext(), slettkontakt.class);
+            startActivityForResult(intent,0);
+        }
+        private void fire() {
+            Intent intent = new Intent(getBaseContext(), slettkontakt.class);
+            startActivityForResult(intent,0);
 
+        }
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
+    public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-}
-
-    public void anime(View view){
-        view.setBackgroundResource(R.drawable.button2green);
-
-}
+} // end of class MainActivity
 

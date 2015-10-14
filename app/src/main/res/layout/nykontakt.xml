@@ -44,6 +44,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/birhtday"
         android:layout_below="@id/newtlffield"/>
+
     <EditText
         android:id="@+id/newbirthfield"
         android:layout_width="fill_parent"
@@ -60,6 +61,5 @@
         android:layout_below="@id/newbirthfield"
         android:layout_alignParentBottom="true"
         android:background="@color/grey"
-        android:text="@string/btn_submit"
-        />
+        android:text="@string/btn_submit"/>
 </RelativeLayout>
