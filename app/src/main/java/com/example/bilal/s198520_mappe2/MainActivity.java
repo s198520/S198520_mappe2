@@ -52,7 +52,7 @@ public class MainActivity extends Activity {
     }
         private void en() {
             Intent intent = new Intent(getBaseContext(), nykontakt.class);
-            startActivityForResult(intent,0);
+            startActivityForResult(intent, 0);
         }
         private void to() {
             Intent intent = new Intent(getBaseContext(), redigerkontakt.class);
@@ -71,6 +71,10 @@ public class MainActivity extends Activity {
     public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
+    }
+
+    public void anime(View view){
+        view.setBackgroundResource(R.drawable.button2green);
     }
 } // end of class MainActivity
 
