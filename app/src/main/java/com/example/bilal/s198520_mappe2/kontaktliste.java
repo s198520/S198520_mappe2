@@ -14,7 +14,7 @@ public class kontaktliste extends Activity {
 
     protected void onCreate(Bundle savedInstanceState ){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.nykontakt);
+        setContentView(R.layout.kontaktliste);
     }
 
     @Override
